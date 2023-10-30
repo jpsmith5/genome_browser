@@ -161,6 +161,87 @@ color 30,144,200
 visibility dense
 type bigBed
 
+track H3K27Ac_pooled
+bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_pooled.bigWig
+shortLabel ChIPseq pooled signal
+longLabel As4.1 cells ChIPseq pooled signal
+type bigWig
+color 0,0,0
+viewLimits 0:50
+negateValues off
+visibility full
+
+track H3K27Ac_H89
+shortLabel H3K27Ac H89 signal
+longLabel ChIP-seq H3K27Ac H89 signal tracks
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+type bigWig
+maxHeightPixels 100:50:16
+windowingFunction maximum
+autoScale on
+
+  track H3K27Ac_TRT_1
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_H89_REP1.bigWig
+  shortLabel ChIPseq H3K27Ac H89 signal (1)
+  longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep1)
+  parent H3K27Ac_H89
+  type bigWig
+  color 255,194,10
+  viewLimits 0:50
+  negateValues off
+  visibility full
+  
+  track H3K27Ac_TRT_2
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_H89_REP2.bigWig
+  shortLabel ChIPseq H3K27Ac H89 signal (2)
+  longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep2)
+  parent H3K27Ac_H89
+  type bigWig
+  color 255,194,10
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+
+track H3K27Ac_DMSO
+shortLabel H3K27Ac DMSO signal
+longLabel ChIP-seq H3K27Ac DMSO signal tracks
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+type bigWig
+maxHeightPixels 100:50:16
+windowingFunction maximum
+autoScale on
+  
+  track H3K27Ac_CTRL_1
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_DMSO_REP1.bigWig
+  shortLabel ChIPseq H3K27Ac DMSO signal (1)
+  longLabel DMSO treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep1)
+  parent H3K27Ac_DMSO
+  type bigWig
+  color 12,123,220
+  altColor 12,123,220
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+  track H3K27Ac_CTRL_2
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_DMSO_REP2.bigWig
+  shortLabel ChIPseq H3K27Ac DMSO signal (2)
+  longLabel DMSO treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep2)
+  parent H3K27Ac_DMSO
+  type bigWig
+  color 12,123,220
+  altColor 12,123,220
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
 track P300_consensus
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_P300_consensus_peaks.bb
 shortLabel ChIPseq P300 consensus
@@ -169,24 +250,96 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track P300_CTRL
+track P300_CTRL_peaks
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_P300_DMSO_enriched_peaks.bb
-shortLabel ChIPseq P300 DMSO
+shortLabel ChIPseq P300 DMSO peaks
 longLabel DMSO treated As4.1 cells with P300 ChIPseq binding sites
 color 30,144,200
 visibility dense
 type bigBed
 
-track P300_TRT
+track P300_TRT_peaks
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_P300_H89_enriched_peaks.bb
-shortLabel ChIPseq P300 H89
+shortLabel ChIPseq P300 H89 peaks
 longLabel H89 treated As4.1 cells with P300 ChIPseq binding sites
 color 30,144,200
 visibility dense
 type bigBed
 
+track P300_H89
+shortLabel P300 H89 signal
+longLabel ChIP-seq P300 H89 signal tracks
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+type bigWig
+maxHeightPixels 100:50:16
+windowingFunction maximum
+autoScale on
+
+  track P300_TRT_1
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_P300_H89_REP1.bigWig
+  shortLabel ChIPseq P300 H89 signal (1)
+  longLabel H89 treated As4.1 cells with P300 ChIPseq binding signal (Rep1)
+  parent P300_H89
+  type bigWig
+  color 255,194,10
+  viewLimits 0:50
+  negateValues off
+  visibility full
+  
+  track P300_TRT_2
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_P300_H89_REP2.bigWig
+  shortLabel ChIPseq P300 H89 signal (2)
+  longLabel H89 treated As4.1 cells with P300 ChIPseq binding signal (Rep2)
+  parent P300_H89
+  type bigWig
+  color 255,194,10
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+
+track P300_DMSO
+shortLabel P300 DMSO signal
+longLabel ChIP-seq P300 DMSO signal tracks
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+visibility full
+type bigWig
+maxHeightPixels 100:50:16
+windowingFunction maximum
+autoScale on
+  
+  track P300_CTRL_1
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_P300_DMSO_REP1.bigWig
+  shortLabel ChIPseq P300 DMSO signal (1)
+  longLabel DMSO treated As4.1 cells with P300 ChIPseq binding signal (Rep1)
+  parent P300_DMSO
+  type bigWig
+  color 12,123,220
+  altColor 12,123,220
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+  track P300_CTRL_2
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_P300_DMSO_REP2.bigWig
+  shortLabel ChIPseq P300 DMSO signal (2)
+  longLabel DMSO treated As4.1 cells with P300 ChIPseq binding signal (Rep2)
+  parent P300_DMSO
+  type bigWig
+  color 12,123,220
+  altColor 12,123,220
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+
 track scRNA
-shortLabel As4.1 scRNA-seq
+shortLabel scRNA-seq
 longLabel H89 or DMSO treated As4.1 cells scRNA-seq signal
 container multiWig
 aggregate transparentOverlay
@@ -221,7 +374,7 @@ autoScale on
   visibility full
 
 track H2B5Kac_signal
-shortLabel As4.1 H2B5Kac CUT&Tag
+shortLabel H2B5Kac
 longLabel As4.1 cells CUT&Tag signal for H2B5Kac
 container multiWig
 aggregate transparentOverlay
@@ -256,7 +409,7 @@ autoScale on
   visibility full
 
 track H4K5ac_signal
-shortLabel As4.1 H4K5ac CUT&Tag
+shortLabel H4K5ac
 longLabel As4.1 cells CUT&Tag signal for H4K5ac
 container multiWig
 aggregate transparentOverlay
@@ -292,7 +445,7 @@ autoScale on
 
 
 track H3K4me3_signal
-shortLabel As4.1 H3K4me3 CUT&Tag
+shortLabel H3K4me3
 longLabel As4.1 cells CUT&Tag signal for H3K4me3
 container multiWig
 aggregate transparentOverlay
@@ -327,7 +480,7 @@ autoScale on
   visibility full
 
 track H3K4me1_signal
-shortLabel As4.1 H3K4me1 CUT&Tag
+shortLabel H3K4me1
 longLabel As4.1 cells CUT&Tag signal for H3K4me1
 container multiWig
 aggregate transparentOverlay
@@ -362,7 +515,7 @@ autoScale on
   visibility full
 
 track H3K27ac_signal
-shortLabel As4.1 H3K27ac CUT&Tag
+shortLabel H3K27ac
 longLabel As4.1 cells CUT&Tag signal for H3K27ac
 container multiWig
 aggregate transparentOverlay
@@ -397,7 +550,7 @@ autoScale on
   visibility full
 
 track H4K16ac_signal
-shortLabel As4.1 H4K16ac CUT&Tag
+shortLabel H4K16ac
 longLabel As4.1 cells CUT&Tag signal for H4K16ac
 container multiWig
 aggregate transparentOverlay
@@ -447,100 +600,100 @@ color 30,144,200
 visibility hide
 type bigBed
 
-track NR3B
+track H89_NR3B
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Esrrb_mm10_instances.bigWig
-shortLabel NR3B family ATAC-seq signal
-longLabel NR3B family ATAC-seq signal
+shortLabel H89 NR3B
+longLabel NR3B family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 30,144,200
 viewLimits 0:50
 negateValues off
 visibility dense
 
-track KLF
+track H89_KLF
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Klf1_mm10_instances.bigWig
-shortLabel KLF family ATAC-seq signal
-longLabel KLF family ATAC-seq signal
+shortLabel H89 KLF
+longLabel KLF family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
 visibility dense
 
-track RORs
+track H89_RORs
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Rorb_mm10_instances.bigWig
-shortLabel RORs family ATAC-seq signal
-longLabel RORs family ATAC-seq signal
+shortLabel H89 RORs
+longLabel RORs family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
 visibility dense
 
-track ETS
+track H89_ETS
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/ETS_mm10_instances.bigWig
-shortLabel ETS family ATAC-seq signal
-longLabel ETS family ATAC-seq signal
+shortLabel H89 ETS
+longLabel ETS family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
 visibility dense
 
-track NR5A
+track H89_NR5A
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Nr5a2_mm10_instances.bigWig
-shortLabel NR5A family ATAC-seq signal
-longLabel NR5A family ATAC-seq signal
+shortLabel H89 NR5A
+longLabel NR5A family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
 visibility dense
 
-track NR2B
+track H89_NR2B
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/RXR_mm10_instances.bigWig
-shortLabel NR2B family ATAC-seq signal
-longLabel NR2B family ATAC-seq signal
+shortLabel H89 NR2B
+longLabel NR2B family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
 visibility dense
 
-track ZBTB
+track H89_ZBTB
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Patz1_mm10_instances.bigWig
-shortLabel ZBTB family ATAC-seq signal
-longLabel ZBTB family ATAC-seq signal
+shortLabel H89 ZBTB
+longLabel ZBTB family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
 visibility dense
 
-track SP
+track H89_SP
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Sp9_mm10_instances.bigWig
-shortLabel SP family ATAC-seq signal
-longLabel SP family ATAC-seq signal
+shortLabel H89 SP
+longLabel SP family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
 visibility dense
 
-track ZFPs
+track H89_ZFPs
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/ZFPs_mm10_instances.bigWig
-shortLabel ZFPs family ATAC-seq signal
-longLabel ZFPs family ATAC-seq signal
+shortLabel H89 ZFPs
+longLabel ZFPs family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
 visibility dense
 
-track AP-1
+track H89_AP-1
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Fra2_mm10_instances.bigWig
-shortLabel AP-1 family ATAC-seq signal
-longLabel AP-1 family ATAC-seq signal
+shortLabel H89 AP-1
+longLabel AP-1 family ATAC-seq signal in H89 treated/untreated As4.1 cells
 type bigWig
 color 74,62,242
 viewLimits 0:50
@@ -549,7 +702,7 @@ visibility dense
 
 track JQ1_RUNX
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_RUNX_mm10.bigWig
-shortLabel RUNX family ATAC-seq signal in JQ1 treated As4.1 cells
+shortLabel JQ1 RUNX
 longLabel RUNX family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -559,7 +712,7 @@ visibility dense
 
 track JQ1_RORs
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_RORs_mm10.bigWig
-shortLabel RORs family ATAC-seq signal in JQ1 treated As4.1 cells
+shortLabel JQ1 RORs
 longLabel RORs family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -569,7 +722,7 @@ visibility dense
 
 track JQ1_TEAD
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_TEAD_mm10.bigWig
-shortLabel TEAD family ATAC-seq signal in JQ1 treated As4.1 cells
+shortLabel JQ1 TEAD
 longLabel TEAD family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -579,7 +732,7 @@ visibility dense
 
 track JQ1_SP
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_SP_mm10.bigWig
-shortLabel SP family ATAC-seq signal in JQ1 treated As4.1 cells
+shortLabel JQ1 SP
 longLabel SP family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -589,7 +742,7 @@ visibility dense
 
 track JQ1_KLF
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_KLF_mm10.bigWig
-shortLabel KLF family ATAC-seq signal in JQ1 treated As4.1 cells
+shortLabel JQ1 KLF
 longLabel KLF family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -599,7 +752,7 @@ visibility dense
 
 track JQ1_bZip
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_bZip_mm10.bigWig
-shortLabel bZip family ATAC-seq signal in JQ1 treated As4.1 cells
+shortLabel JQ1 bZip
 longLabel bZip family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -641,7 +794,7 @@ type bigBed
 
 track A485_P53
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_P53_mm10.bigWig
-shortLabel P53 family ATAC-seq signal in A485 treated As4.1 cells
+shortLabel A485 P53
 longLabel P53 family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -651,7 +804,7 @@ visibility dense
 
 track A485_KLF
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_KLF_mm10.bigWig
-shortLabel KLF family ATAC-seq signal in A485 treated As4.1 cells
+shortLabel A485 KLF
 longLabel KLF family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -661,7 +814,7 @@ visibility dense
 
 track A485_RUNX
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_RUNX_mm10.bigWig
-shortLabel RUNX family ATAC-seq signal in A485 treated As4.1 cells
+shortLabel A485 RUNX
 longLabel RUNX family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -671,7 +824,7 @@ visibility dense
 
 track A485_AP-1
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_AP1_mm10.bigWig
-shortLabel AP-1 family ATAC-seq signal in A485 treated As4.1 cells
+shortLabel A485 AP-1
 longLabel AP-1 family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -681,7 +834,7 @@ visibility dense
 
 track A485_MAZ
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_MAZ_mm10.bigWig
-shortLabel MAZ family ATAC-seq signal in A485 treated As4.1 cells
+shortLabel A485 MAZ
 longLabel MAZ family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -691,7 +844,7 @@ visibility dense
 
 track A485_TEAD
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_TEAD_mm10.bigWig
-shortLabel TEAD family ATAC-seq signal in A485 treated As4.1 cells
+shortLabel A485 TEAD
 longLabel TEAD family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
 color 74,62,242
@@ -701,7 +854,7 @@ visibility dense
 
 track A485_SP
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_SP_mm10.bigWig
-shortLabel SP family ATAC-seq signal in A485 treated As4.1 cells
+shortLabel A485 SP
 longLabel SP family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
 color 74,62,242
