@@ -11,7 +11,7 @@ windowingFunction maximum
 autoScale on
 
   track CTRL
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO_merged.bw
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO_merged.bw
   shortLabel CTRL signal
   longLabel DMSO treated As4.1 cells ATAC signal (blue)
   parent ATAC
@@ -23,7 +23,7 @@ autoScale on
   visibility full
 
   track H89
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_H89_merged.bw
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H89_merged.bw
   shortLabel TRT signal
   longLabel H89 treated As4.1 cells ATAC signal (yellow)
   parent ATAC
@@ -34,7 +34,7 @@ autoScale on
   visibility full
 
 track CTRL_BED
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/ctrl.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/ctrl.bb
 shortLabel DMSO treated
 longLabel DMSO treated As4.1 cells ATAC base-pair resolution signal
 color 30,144,200
@@ -42,7 +42,7 @@ visibility hide
 type bigBed
 
 track TRT_BED
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/trt.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/trt.bb
 shortLabel H89 treated
 longLabel H89 treated As4.1 cells ATAC base-pair resolution signal
 color 30,144,200
@@ -50,7 +50,7 @@ visibility hide
 type bigBed
 
 track consensus_atac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_consensus_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_consensus_peaks.bb
 shortLabel consensus peaks
 longLabel Consensus ATAC peaks from treated and untreated As4.1 cells
 color 30,144,200
@@ -58,7 +58,7 @@ visibility dense
 type bigBed
 
 track dynamic_atac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_all_dynamic_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_all_dynamic_peaks.bb
 shortLabel dynamic peaks
 longLabel Dynamic ATAC peaks from treated and untreated As4.1 cells
 color 30,144,200
@@ -66,7 +66,7 @@ visibility dense
 type bigBed
 
 track dynamic_decreased_atac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_decreased_dynamic_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_decreased_dynamic_peaks.bb
 shortLabel decreased dynamic peaks
 longLabel Decreased dynamic ATAC peaks from treated and untreated As4.1 cells
 color 30,144,200
@@ -74,7 +74,7 @@ visibility dense
 type bigBed
 
 track dynamic_increased_atac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_increased_dynamic_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_increased_dynamic_peaks.bb
 shortLabel increased dynamic peaks
 longLabel Increased dynamic ATAC peaks from treated and untreated As4.1 cells
 color 30,144,200
@@ -82,7 +82,7 @@ visibility dense
 type bigBed
 
 track nondynamic_atac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_nondynamic_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_nondynamic_peaks.bb
 shortLabel nondynamic peaks
 longLabel Nondynamic ATAC peaks from treated and untreated As4.1 cells
 color 30,144,200
@@ -90,7 +90,7 @@ visibility dense
 type bigBed
 
 track H3K27Ac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K27ac_consensus_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K27ac_consensus_peaks.bb
 shortLabel CUT&Tag H3K27Ac consensus
 longLabel As4.1 cells with H3K27Ac CUT&Tag consensus binding sites
 color 30,144,200
@@ -98,7 +98,7 @@ visibility hide
 type bigBed
 
 track H4K16ac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H4K16ac_consensus_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H4K16ac_consensus_peaks.bb
 shortLabel CUT&Tag H4K16ac consensus
 longLabel As4.1 cells with H4K16ac CUT&Tag consensus binding sites
 color 30,144,200
@@ -106,7 +106,7 @@ visibility hide
 type bigBed
 
 track H4K5ac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H4K5ac_consensus_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H4K5ac_consensus_peaks.bb
 shortLabel CUT&Tag H4K5ac consensus
 longLabel As4.1 cells with H4K5ac CUT&Tag consensus binding sites
 color 30,144,200
@@ -114,7 +114,7 @@ visibility hide
 type bigBed
 
 track H2B5Kac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H2B5Kac_consensus_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H2B5Kac_consensus_peaks.bb
 shortLabel CUT&Tag H2B5Kac consensus
 longLabel As4.1 cells with H2B5Kac CUT&Tag consensus binding sites
 color 30,144,200
@@ -122,7 +122,7 @@ visibility hide
 type bigBed
 
 track H3K4me3
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K4me3_consensus_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me3_consensus_peaks.bb
 shortLabel CUT&Tag H3K4me3 consensus
 longLabel As4.1 cells with H3K4me3 CUT&Tag consensus binding sites
 color 30,144,200
@@ -130,7 +130,7 @@ visibility hide
 type bigBed
 
 track H3K4me1
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K4me1_consensus_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me1_consensus_peaks.bb
 shortLabel CUT&Tag H3K4me1 consensus
 longLabel As4.1 cells with H3K4me1 CUT&Tag consensus binding sites
 color 30,144,200
@@ -138,7 +138,7 @@ visibility hide
 type bigBed
 
 track H3K27Ac_consensus
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_consensus_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_consensus_peaks.bb
 shortLabel ChIPseq H3K27Ac consensus
 longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq consensus binding sites
 color 30,144,200
@@ -146,7 +146,7 @@ visibility dense
 type bigBed
 
 track H3K27Ac_CTRL
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_DMSO_enriched_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_DMSO_enriched_peaks.bb
 shortLabel ChIPseq H3K27Ac DMSO
 longLabel DMSO treated As4.1 cells with H3K27Ac ChIPseq enriched binding sites
 color 30,144,200
@@ -154,7 +154,7 @@ visibility dense
 type bigBed
 
 track H3K27Ac_TRT
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_H89_enriched_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_H89_enriched_peaks.bb
 shortLabel ChIPseq H3K27Ac H89
 longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq enriched binding sites
 color 30,144,200
@@ -162,7 +162,7 @@ visibility dense
 type bigBed
 
 track P300_consensus
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_P300_consensus_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_P300_consensus_peaks.bb
 shortLabel ChIPseq P300 consensus
 longLabel H89 treated As4.1 cells with P300 ChIPseq consensus binding sites
 color 30,144,200
@@ -170,7 +170,7 @@ visibility dense
 type bigBed
 
 track P300_CTRL
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_P300_DMSO_enriched_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_P300_DMSO_enriched_peaks.bb
 shortLabel ChIPseq P300 DMSO
 longLabel DMSO treated As4.1 cells with P300 ChIPseq binding sites
 color 30,144,200
@@ -178,7 +178,7 @@ visibility dense
 type bigBed
 
 track P300_TRT
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-H89_P300_H89_enriched_peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_P300_H89_enriched_peaks.bb
 shortLabel ChIPseq P300 H89
 longLabel H89 treated As4.1 cells with P300 ChIPseq binding sites
 color 30,144,200
@@ -198,7 +198,7 @@ windowingFunction maximum
 autoScale on
 
   track scRNA_TRT
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_H89_scRNAseq_RPKM.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H89_scRNAseq_RPKM.bigWig
   shortLabel H89 scRNA-seq signal
   longLabel H89 treated As4.1 cells scRNA-seq signal (yellow)
   parent scRNA
@@ -209,7 +209,7 @@ autoScale on
   visibility full
   
   track scRNA_CTRL
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO_scRNAseq_RPKM.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO_scRNAseq_RPKM.bigWig
   shortLabel DMSO scRNA-seq signal
   longLabel DMSO treated As4.1 cells scRNA-seq signal (blue)
   parent scRNA
@@ -233,7 +233,7 @@ windowingFunction maximum
 autoScale on
 
   track H2B5Kac_signal_1
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H2B5Kac_R1.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H2B5Kac_R1.bigWig
   shortLabel CUT&Tag H2B5Kac rep1 signal
   longLabel As4.1 cells with H2B5Kac CUT&Tag rep1 signal
   parent H2B5Kac_signal
@@ -244,7 +244,7 @@ autoScale on
   visibility full
   
   track H2B5Kac_signal_2
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H2B5Kac_R2.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H2B5Kac_R2.bigWig
   shortLabel CUT&Tag H2B5Kac rep2 signal
   longLabel As4.1 cells with H2B5Kac CUT&Tag rep2 signal
   parent H2B5Kac_signal
@@ -268,7 +268,7 @@ windowingFunction maximum
 autoScale on
 
   track H4K5ac_signal_1
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H4K5ac_R1.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H4K5ac_R1.bigWig
   shortLabel CUT&Tag H4K5ac rep1 signal
   longLabel As4.1 cells with H4K5ac CUT&Tag rep1 signal
   parent H4K5ac_signal
@@ -279,7 +279,7 @@ autoScale on
   visibility full
   
   track H4K5ac_signal_2
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H4K5ac_R2.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H4K5ac_R2.bigWig
   shortLabel CUT&Tag H4K5ac rep2 signal
   longLabel As4.1 cells with H4K5ac CUT&Tag rep2 signal
   parent H4K5ac_signal
@@ -304,7 +304,7 @@ windowingFunction maximum
 autoScale on
 
   track H3K4me3_signal_1
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K4me3_R1.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me3_R1.bigWig
   shortLabel CUT&Tag H3K4me3 rep1 signal
   longLabel As4.1 cells with H3K4me3 CUT&Tag rep1 signal
   parent H3K4me3_signal
@@ -315,7 +315,7 @@ autoScale on
   visibility full
   
   track H3K4me3_signal_2
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K4me3_R2.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me3_R2.bigWig
   shortLabel CUT&Tag H3K4me3 rep2 signal
   longLabel As4.1 cells with H3K4me3 CUT&Tag rep2 signal
   parent H3K4me3_signal
@@ -339,7 +339,7 @@ windowingFunction maximum
 autoScale on
 
   track H3K4me1_signal_1
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K4me1_R1.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me1_R1.bigWig
   shortLabel CUT&Tag H3K4me1 rep1 signal
   longLabel As4.1 cells with H3K4me1 CUT&Tag rep1 signal
   parent H3K4me1_signal
@@ -350,7 +350,7 @@ autoScale on
   visibility full
   
   track H3K4me1_signal_2
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K4me1_R2.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me1_R2.bigWig
   shortLabel CUT&Tag H3K4me1 rep2 signal
   longLabel As4.1 cells with H3K4me1 CUT&Tag rep2 signal
   parent H3K4me1_signal
@@ -374,7 +374,7 @@ windowingFunction maximum
 autoScale on
 
   track H3K27ac_signal_1
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K27ac_R1.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K27ac_R1.bigWig
   shortLabel CUT&Tag H3K27ac rep1 signal
   longLabel As4.1 cells with H3K27ac CUT&Tag rep1 signal
   parent H3K27ac_signal
@@ -385,7 +385,7 @@ autoScale on
   visibility full
   
   track H3K27ac_signal_2
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K27ac_R2.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K27ac_R2.bigWig
   shortLabel CUT&Tag H3K27ac rep2 signal
   longLabel As4.1 cells with H3K27ac CUT&Tag rep2 signal
   parent H3K27ac_signal
@@ -409,7 +409,7 @@ windowingFunction maximum
 autoScale on
 
   track H4K16ac_signal_1
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H4K16ac_R1.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H4K16ac_R1.bigWig
   shortLabel CUT&Tag H4K16ac rep1 signal
   longLabel As4.1 cells with H4K16ac CUT&Tag rep1 signal
   parent H4K16ac_signal
@@ -420,7 +420,7 @@ autoScale on
   visibility full
   
   track H4K16ac_signal_2
-  bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H4K16ac_R2.bigWig
+  bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H4K16ac_R2.bigWig
   shortLabel CUT&Tag H4K16ac rep2 signal
   longLabel As4.1 cells with H4K16ac CUT&Tag rep2 signal
   parent H4K16ac_signal
@@ -432,7 +432,7 @@ autoScale on
   visibility full
 
 track H3K27Ac_decATAC
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K27Ac_H89_decATAC_2023-05-22.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K27Ac_H89_decATAC_2023-05-22.bb
 shortLabel ChIPseq H3K27Ac decreased ATAC regions
 longLabel H3K27Ac ChIPseq subsetted on decreased ATAC regions from H89 vs DMSO treated As4.1 cells
 color 30,144,200
@@ -440,7 +440,7 @@ visibility hide
 type bigBed
 
 track H3K27Ac_incATAC
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/H3K27Ac_H89_incATAC_2023-05-22.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/H3K27Ac_H89_incATAC_2023-05-22.bb
 shortLabel ChIPseq H3K27Ac increased ATAC regions
 longLabel H3K27Ac ChIPseq subsetted on increased ATAC regions from H89 vs DMSO treated As4.1 cells
 color 30,144,200
@@ -448,7 +448,7 @@ visibility hide
 type bigBed
 
 track NR3B
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/Esrrb_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/Esrrb_mm10_instances.bigWig
 shortLabel NR3B family ATAC-seq signal
 longLabel NR3B family ATAC-seq signal
 type bigWig
@@ -458,7 +458,7 @@ negateValues off
 visibility dense
 
 track KLF
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/Klf1_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/Klf1_mm10_instances.bigWig
 shortLabel KLF family ATAC-seq signal
 longLabel KLF family ATAC-seq signal
 type bigWig
@@ -468,7 +468,7 @@ negateValues off
 visibility dense
 
 track RORs
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/Rorb_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/Rorb_mm10_instances.bigWig
 shortLabel RORs family ATAC-seq signal
 longLabel RORs family ATAC-seq signal
 type bigWig
@@ -478,7 +478,7 @@ negateValues off
 visibility dense
 
 track ETS
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/ETS_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/ETS_mm10_instances.bigWig
 shortLabel ETS family ATAC-seq signal
 longLabel ETS family ATAC-seq signal
 type bigWig
@@ -488,7 +488,7 @@ negateValues off
 visibility dense
 
 track NR5A
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/Nr5a2_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/Nr5a2_mm10_instances.bigWig
 shortLabel NR5A family ATAC-seq signal
 longLabel NR5A family ATAC-seq signal
 type bigWig
@@ -498,7 +498,7 @@ negateValues off
 visibility dense
 
 track NR2B
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/RXR_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/RXR_mm10_instances.bigWig
 shortLabel NR2B family ATAC-seq signal
 longLabel NR2B family ATAC-seq signal
 type bigWig
@@ -508,7 +508,7 @@ negateValues off
 visibility dense
 
 track ZBTB
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/Patz1_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/Patz1_mm10_instances.bigWig
 shortLabel ZBTB family ATAC-seq signal
 longLabel ZBTB family ATAC-seq signal
 type bigWig
@@ -518,7 +518,7 @@ negateValues off
 visibility dense
 
 track SP
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/Sp9_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/Sp9_mm10_instances.bigWig
 shortLabel SP family ATAC-seq signal
 longLabel SP family ATAC-seq signal
 type bigWig
@@ -528,7 +528,7 @@ negateValues off
 visibility dense
 
 track ZFPs
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/ZFPs_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/ZFPs_mm10_instances.bigWig
 shortLabel ZFPs family ATAC-seq signal
 longLabel ZFPs family ATAC-seq signal
 type bigWig
@@ -538,7 +538,7 @@ negateValues off
 visibility dense
 
 track AP-1
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/Fra2_mm10_instances.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/Fra2_mm10_instances.bigWig
 shortLabel AP-1 family ATAC-seq signal
 longLabel AP-1 family ATAC-seq signal
 type bigWig
@@ -548,7 +548,7 @@ negateValues off
 visibility dense
 
 track JQ1_RUNX
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/JQ1_RUNX_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_RUNX_mm10.bigWig
 shortLabel RUNX family ATAC-seq signal in JQ1 treated As4.1 cells
 longLabel RUNX family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
@@ -558,7 +558,7 @@ negateValues off
 visibility dense
 
 track JQ1_RORs
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/JQ1_RORs_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_RORs_mm10.bigWig
 shortLabel RORs family ATAC-seq signal in JQ1 treated As4.1 cells
 longLabel RORs family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
@@ -568,7 +568,7 @@ negateValues off
 visibility dense
 
 track JQ1_TEAD
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/JQ1_TEAD_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_TEAD_mm10.bigWig
 shortLabel TEAD family ATAC-seq signal in JQ1 treated As4.1 cells
 longLabel TEAD family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
@@ -578,7 +578,7 @@ negateValues off
 visibility dense
 
 track JQ1_SP
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/JQ1_SP_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_SP_mm10.bigWig
 shortLabel SP family ATAC-seq signal in JQ1 treated As4.1 cells
 longLabel SP family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
@@ -588,7 +588,7 @@ negateValues off
 visibility dense
 
 track JQ1_KLF
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/JQ1_KLF_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_KLF_mm10.bigWig
 shortLabel KLF family ATAC-seq signal in JQ1 treated As4.1 cells
 longLabel KLF family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
@@ -598,7 +598,7 @@ negateValues off
 visibility dense
 
 track JQ1_bZip
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/JQ1_bZip_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_bZip_mm10.bigWig
 shortLabel bZip family ATAC-seq signal in JQ1 treated As4.1 cells
 longLabel bZip family ATAC-seq signal in JQ1 treated As4.1 cells
 type bigWig
@@ -608,7 +608,7 @@ negateValues off
 visibility dense
 
 track JQ1_increased_atac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-JQ1_increased-dynamic-peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-JQ1_increased-dynamic-peaks.bb
 shortLabel JQ1 increased dynamic peaks
 longLabel Increased dynamic ATAC peaks from JQ1 treated and untreated As4.1 cells
 color 30,144,200
@@ -616,7 +616,7 @@ visibility dense
 type bigBed
 
 track JQ1_decreased_atac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-JQ1_decreased-dynamic-peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-JQ1_decreased-dynamic-peaks.bb
 shortLabel JQ1 decreased dynamic peaks
 longLabel Decreased dynamic ATAC peaks from JQ1 treated and untreated As4.1 cells
 color 30,144,200
@@ -624,7 +624,7 @@ visibility dense
 type bigBed
 
 track JQ1_all_dynamic_peaks
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-JQ1_all-dynamic-peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-JQ1_all-dynamic-peaks.bb
 shortLabel JQ1 all dynamic peaks
 longLabel All dynamic ATAC peaks from JQ1 treated and untreated As4.1 cells
 color 30,144,200
@@ -632,7 +632,7 @@ visibility dense
 type bigBed
 
 track JQ1_non-dynamic_peaks
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-JQ1_nondynamic-peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-JQ1_nondynamic-peaks.bb
 shortLabel JQ1 non-dynamic peaks
 longLabel Non-dynamic ATAC peaks from JQ1 treated and untreated As4.1 cells
 color 30,144,200
@@ -640,7 +640,7 @@ visibility dense
 type bigBed
 
 track A485_P53
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/A485_P53_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/A485_P53_mm10.bigWig
 shortLabel P53 family ATAC-seq signal in A485 treated As4.1 cells
 longLabel P53 family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
@@ -650,7 +650,7 @@ negateValues off
 visibility dense
 
 track A485_KLF
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/A485_KLF_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/A485_KLF_mm10.bigWig
 shortLabel KLF family ATAC-seq signal in A485 treated As4.1 cells
 longLabel KLF family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
@@ -660,7 +660,7 @@ negateValues off
 visibility dense
 
 track A485_RUNX
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/A485_RUNX_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/A485_RUNX_mm10.bigWig
 shortLabel RUNX family ATAC-seq signal in A485 treated As4.1 cells
 longLabel RUNX family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
@@ -670,7 +670,7 @@ negateValues off
 visibility dense
 
 track A485_AP-1
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/A485_AP1_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/A485_AP1_mm10.bigWig
 shortLabel AP-1 family ATAC-seq signal in A485 treated As4.1 cells
 longLabel AP-1 family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
@@ -680,7 +680,7 @@ negateValues off
 visibility dense
 
 track A485_MAZ
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/A485_MAZ_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/A485_MAZ_mm10.bigWig
 shortLabel MAZ family ATAC-seq signal in A485 treated As4.1 cells
 longLabel MAZ family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
@@ -690,7 +690,7 @@ negateValues off
 visibility dense
 
 track A485_TEAD
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/A485_TEAD_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/A485_TEAD_mm10.bigWig
 shortLabel TEAD family ATAC-seq signal in A485 treated As4.1 cells
 longLabel TEAD family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
@@ -700,7 +700,7 @@ negateValues off
 visibility dense
 
 track A485_SP
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/A485_SP_mm10.bigWig
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/A485_SP_mm10.bigWig
 shortLabel SP family ATAC-seq signal in A485 treated As4.1 cells
 longLabel SP family ATAC-seq signal in A485 treated As4.1 cells
 type bigWig
@@ -710,7 +710,7 @@ negateValues off
 visibility dense
 
 track A485_increased_atac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-A485_increased-dynamic-peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-A485_increased-dynamic-peaks.bb
 shortLabel A485 increased dynamic peaks
 longLabel Increased dynamic ATAC peaks from A485 treated and untreated As4.1 cells
 color 30,144,200
@@ -718,7 +718,7 @@ visibility dense
 type bigBed
 
 track A485_decreased_atac
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-A485_decreased-dynamic-peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-A485_decreased-dynamic-peaks.bb
 shortLabel A485 decreased dynamic peaks
 longLabel Decreased dynamic ATAC peaks from A485 treated and untreated As4.1 cells
 color 30,144,200
@@ -726,7 +726,7 @@ visibility dense
 type bigBed
 
 track A485_all_dynamic_peaks
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-A485_all-dynamic-peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-A485_all-dynamic-peaks.bb
 shortLabel A485 all dynamic peaks
 longLabel All dynamic ATAC peaks from A485 treated and untreated As4.1 cells
 color 30,144,200
@@ -734,7 +734,7 @@ visibility dense
 type bigBed
 
 track A485_non-dynamic_peaks
-bigDataUrl http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_DMSO-v-A485_nondynamic-peaks.bb
+bigDataUrl https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-A485_nondynamic-peaks.bb
 shortLabel A485 non-dynamic peaks
 longLabel Non-dynamic ATAC peaks from A485 treated and untreated As4.1 cells
 color 30,144,200
