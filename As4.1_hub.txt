@@ -1,0 +1,6 @@
+hub As4.1
+shortLabel As4.1
+longLabel As4.1 cells treated with H89 or DMSO with ATAC-seq and ChIP-seq for H3K27Ac and P300. Also, As4.1 cells treated with either JQ1 or A485. Lysine modifications in As4.1 cells.
+genomesFile http://big.databio.org/gomez/genome_browser/As4.1_genomes.txt
+email jasonsmith@virginia.edu
+descriptionUrl 
