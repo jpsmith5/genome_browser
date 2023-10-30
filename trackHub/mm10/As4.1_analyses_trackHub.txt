@@ -89,7 +89,7 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track H3K27Ac
+track H3K27Ac_consensus_peaks
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27ac_consensus_peaks.bb
 shortLabel CUT&Tag H3K27Ac consensus
 longLabel As4.1 cells with H3K27Ac CUT&Tag consensus binding sites
