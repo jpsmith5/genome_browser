@@ -1,5 +1,5 @@
 genome mm10
-trackDb http://big.databio.org/gomez/genome_browser/trackHub/mm10/As4.1_analyses_trackHub.txt
+trackDb https://raw.githubusercontent.com/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_analyses_trackHub.txt
 organism mouse
 scientificName Mus musculus
 defaultPos chr1:133300000-133400000
