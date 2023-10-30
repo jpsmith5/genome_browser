@@ -171,7 +171,7 @@ viewLimits 0:50
 negateValues off
 visibility full
 
-track H3K27Ac_signal
+track H3K27Ac_ChIP_signal
 shortLabel H3K27Ac signal
 longLabel ChIP-seq H3K27Ac signal tracks
 container multiWig
@@ -187,7 +187,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_H89_REP1.bigWig
   shortLabel H3K27Ac H89 (1)
   longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep1)
-  parent H3K27Ac_signal
+  parent H3K27Ac_ChIP_signal
   type bigWig
   color 255,194,10
   viewLimits 0:50
@@ -198,7 +198,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_H89_REP2.bigWig
   shortLabel H3K27Ac H89 (2)
   longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep2)
-  parent H3K27Ac_signal
+  parent H3K27Ac_ChIP_signal
   type bigWig
   color 255,194,10
   viewLimits 0:50
@@ -209,7 +209,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_DMSO_REP1.bigWig
   shortLabel H3K27Ac DMSO (1)
   longLabel DMSO treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep1)
-  parent H3K27Ac_signal
+  parent H3K27Ac_ChIP_signal
   type bigWig
   color 12,123,220
   altColor 12,123,220
@@ -221,7 +221,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_DMSO_REP2.bigWig
   shortLabel H3K27Ac DMSO (2)
   longLabel DMSO treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep2)
-  parent H3K27Ac_signal
+  parent H3K27Ac_ChIP_signal
   type bigWig
   color 12,123,220
   altColor 12,123,220
