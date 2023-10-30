@@ -49,7 +49,7 @@ color 30,144,200
 visibility hide
 type bigBed
 
-track consensus_atac
+track H89_consensus_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_consensus_peaks.bb
 shortLabel consensus peaks
 longLabel Consensus ATAC peaks from treated and untreated As4.1 cells
@@ -57,7 +57,7 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track dynamic_atac
+track H89_dynamic_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_all_dynamic_peaks.bb
 shortLabel dynamic peaks
 longLabel Dynamic ATAC peaks from treated and untreated As4.1 cells
@@ -65,7 +65,7 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track dynamic_decreased_atac
+track H89_dynamic_decreased_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_decreased_dynamic_peaks.bb
 shortLabel decreased dynamic peaks
 longLabel Decreased dynamic ATAC peaks from treated and untreated As4.1 cells
@@ -73,7 +73,7 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track dynamic_increased_atac
+track H89_dynamic_increased_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_increased_dynamic_peaks.bb
 shortLabel increased dynamic peaks
 longLabel Increased dynamic ATAC peaks from treated and untreated As4.1 cells
@@ -81,7 +81,7 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track nondynamic_atac
+track H89_nondynamic_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_nondynamic_peaks.bb
 shortLabel nondynamic peaks
 longLabel Nondynamic ATAC peaks from treated and untreated As4.1 cells
@@ -137,7 +137,7 @@ color 30,144,200
 visibility hide
 type bigBed
 
-track H3K27Ac_consensus
+track H89_H3K27Ac_consensus_peaks
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_consensus_peaks.bb
 shortLabel ChIPseq H3K27Ac consensus
 longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq consensus binding sites
@@ -145,7 +145,7 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track H3K27Ac_CTRL
+track H3K27Ac_CTRL_peaks
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_DMSO_enriched_peaks.bb
 shortLabel ChIPseq H3K27Ac DMSO
 longLabel DMSO treated As4.1 cells with H3K27Ac ChIPseq enriched binding sites
@@ -153,7 +153,7 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track H3K27Ac_TRT
+track H3K27Ac_TRT_peaks
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_H89_enriched_peaks.bb
 shortLabel ChIPseq H3K27Ac H89
 longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq enriched binding sites
@@ -161,7 +161,7 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track H3K27Ac_pooled
+track H3K27Ac_pooled_signal
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_pooled.bigWig
 shortLabel ChIPseq pooled signal
 longLabel As4.1 cells ChIPseq pooled signal
@@ -171,7 +171,7 @@ viewLimits 0:50
 negateValues off
 visibility full
 
-track H3K27Ac
+track H3K27Ac_signal
 shortLabel H3K27Ac signal
 longLabel ChIP-seq H3K27Ac signal tracks
 container multiWig
@@ -187,7 +187,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_H89_REP1.bigWig
   shortLabel H3K27Ac H89 (1)
   longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep1)
-  parent H3K27Ac
+  parent H3K27Ac_signal
   type bigWig
   color 255,194,10
   viewLimits 0:50
@@ -198,7 +198,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_H89_REP2.bigWig
   shortLabel H3K27Ac H89 (2)
   longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep2)
-  parent H3K27Ac
+  parent H3K27Ac_signal
   type bigWig
   color 255,194,10
   viewLimits 0:50
@@ -209,7 +209,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_DMSO_REP1.bigWig
   shortLabel H3K27Ac DMSO (1)
   longLabel DMSO treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep1)
-  parent H3K27Ac
+  parent H3K27Ac_signal
   type bigWig
   color 12,123,220
   altColor 12,123,220
@@ -221,7 +221,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H3K27Ac_DMSO_REP2.bigWig
   shortLabel H3K27Ac DMSO (2)
   longLabel DMSO treated As4.1 cells with H3K27Ac ChIPseq binding signal (Rep2)
-  parent H3K27Ac
+  parent H3K27Ac_signal
   type bigWig
   color 12,123,220
   altColor 12,123,220
@@ -229,7 +229,7 @@ autoScale on
   negateValues off
   visibility full
 
-track P300_consensus
+track P300_consensus_peaks
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_P300_consensus_peaks.bb
 shortLabel ChIPseq P300 consensus
 longLabel H89 treated As4.1 cells with P300 ChIPseq consensus binding sites
@@ -253,7 +253,7 @@ color 30,144,200
 visibility dense
 type bigBed
 
-track P300
+track P300_signal
 shortLabel P300 signal
 longLabel ChIP-seq P300 signal tracks
 container multiWig
@@ -269,7 +269,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_P300_H89_REP1.bigWig
   shortLabel P300 H89 (1)
   longLabel H89 treated As4.1 cells with P300 ChIPseq binding signal (Rep1)
-  parent P300
+  parent P300_signal
   type bigWig
   color 255,194,10
   viewLimits 0:50
@@ -280,7 +280,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_P300_H89_REP2.bigWig
   shortLabel P300 H89 (2)
   longLabel H89 treated As4.1 cells with P300 ChIPseq binding signal (Rep2)
-  parent P300
+  parent P300_signal
   type bigWig
   color 255,194,10
   viewLimits 0:50
@@ -291,7 +291,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_P300_DMSO_REP1.bigWig
   shortLabel P300 DMSO (1)
   longLabel DMSO treated As4.1 cells with P300 ChIPseq binding signal (Rep1)
-  parent P300
+  parent P300_signal
   type bigWig
   color 12,123,220
   altColor 12,123,220
@@ -303,7 +303,7 @@ autoScale on
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_P300_DMSO_REP2.bigWig
   shortLabel P300 DMSO (2)
   longLabel DMSO treated As4.1 cells with P300 ChIPseq binding signal (Rep2)
-  parent P300
+  parent P300_signal
   type bigWig
   color 12,123,220
   altColor 12,123,220
