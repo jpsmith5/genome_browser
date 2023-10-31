@@ -207,7 +207,7 @@ autoScale on
   visibility full
 
 track H3K27ac_combined_signal
-bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27ac_As4.1.bigWig
+bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27Ac_As4.1.bigWig
 shortLabel CUT&Tag and ChIP-seq H3K27ac combined signal
 longLabel As4.1 cells with H3K27ac CUT&Tag and DMSO treated ChIP signal
 type bigWig
