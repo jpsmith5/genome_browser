@@ -1,6 +1,6 @@
 track ATAC
 shortLabel As4.1 ATAC-seq
-longLabel H89 or DMSO treated As4.1 cells ATAC signal
+longLabel H89/JQ1/A485 or DMSO treated As4.1 cells ATAC signal
 container multiWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -24,8 +24,30 @@ autoScale on
 
   track H89
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_H89_merged.bw
-  shortLabel TRT signal
+  shortLabel H89 ATAC signal
   longLabel H89 treated As4.1 cells ATAC signal (yellow)
+  parent ATAC
+  color 255,194,10
+  type bigWig
+  viewLimits 0:50
+  negateValues off
+  visibility full
+  
+  track JQ1
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_JQ1_merged.bw
+  shortLabel JQ1 ATAC signal
+  longLabel JQ1 treated As4.1 cells ATAC signal (yellow)
+  parent ATAC
+  color 255,194,10
+  type bigWig
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+  track A485
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_A485_merged.bw
+  shortLabel A485 ATAC signal
+  longLabel A485 treated As4.1 cells ATAC signal (yellow)
   parent ATAC
   color 255,194,10
   type bigWig
@@ -54,7 +76,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel consensus peaks
 longLabel Consensus ATAC peaks from treated and untreated As4.1 cells
 color 190,190,190
-visibility dense
+visibility hide
 type bigBed
 
 track H89_dynamic_atac
@@ -62,7 +84,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel dynamic peaks
 longLabel Dynamic ATAC peaks from treated and untreated As4.1 cells
 color 255,194,10
-visibility dense
+visibility hide
 type bigBed
 
 track H89_dynamic_decreased_atac
@@ -70,7 +92,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel decreased dynamic peaks
 longLabel Decreased dynamic ATAC peaks from treated and untreated As4.1 cells
 color 255,194,10
-visibility dense
+visibility hide
 type bigBed
 
 track H89_dynamic_increased_atac
@@ -78,7 +100,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel increased dynamic peaks
 longLabel Increased dynamic ATAC peaks from treated and untreated As4.1 cells
 color 255,194,10
-visibility dense
+visibility hide
 type bigBed
 
 track H89_nondynamic_atac
@@ -86,7 +108,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel nondynamic peaks
 longLabel Nondynamic ATAC peaks from treated and untreated As4.1 cells
 color 12,123,220
-visibility dense
+visibility hide
 type bigBed
 
 track H3K27Ac_consensus_peaks
@@ -142,7 +164,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel ChIPseq H3K27Ac consensus
 longLabel H89 treated As4.1 cells with H3K27Ac ChIPseq consensus binding sites
 color 190,190,190
-visibility dense
+visibility hide
 type bigBed
 
 track H3K27Ac_CTRL_peaks
@@ -395,7 +417,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track H89_KLF
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Klf1_mm10_instances.bigWig
@@ -405,7 +427,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track H89_RORs
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Rorb_mm10_instances.bigWig
@@ -415,7 +437,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track H89_ETS
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/ETS_mm10_instances.bigWig
@@ -425,7 +447,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track H89_NR5A
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Nr5a2_mm10_instances.bigWig
@@ -435,7 +457,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track H89_NR2B
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/RXR_mm10_instances.bigWig
@@ -445,7 +467,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track H89_ZBTB
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Patz1_mm10_instances.bigWig
@@ -455,7 +477,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track H89_SP
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Sp9_mm10_instances.bigWig
@@ -465,7 +487,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track H89_ZFPs
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/ZFPs_mm10_instances.bigWig
@@ -475,7 +497,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track H89_AP-1
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/Fra2_mm10_instances.bigWig
@@ -485,7 +507,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track JQ1_RUNX
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_RUNX_mm10.bigWig
@@ -495,7 +517,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track JQ1_RORs
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_RORs_mm10.bigWig
@@ -505,7 +527,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track JQ1_TEAD
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_TEAD_mm10.bigWig
@@ -515,7 +537,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track JQ1_SP
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_SP_mm10.bigWig
@@ -525,7 +547,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track JQ1_KLF
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_KLF_mm10.bigWig
@@ -535,7 +557,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track JQ1_bZip
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/JQ1_bZip_mm10.bigWig
@@ -545,14 +567,14 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track JQ1_increased_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-JQ1_increased-dynamic-peaks.bb
 shortLabel JQ1 increased dynamic peaks
 longLabel Increased dynamic ATAC peaks from JQ1 treated and untreated As4.1 cells
 color 255,194,10
-visibility dense
+visibility hide
 type bigBed
 
 track JQ1_decreased_atac
@@ -560,7 +582,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel JQ1 decreased dynamic peaks
 longLabel Decreased dynamic ATAC peaks from JQ1 treated and untreated As4.1 cells
 color 255,194,10
-visibility dense
+visibility hide
 type bigBed
 
 track JQ1_all_dynamic_peaks
@@ -568,7 +590,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel JQ1 all dynamic peaks
 longLabel All dynamic ATAC peaks from JQ1 treated and untreated As4.1 cells
 color 255,194,10
-visibility dense
+visibility hide
 type bigBed
 
 track JQ1_non-dynamic_peaks
@@ -576,7 +598,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel JQ1 non-dynamic peaks
 longLabel Non-dynamic ATAC peaks from JQ1 treated and untreated As4.1 cells
 color 12,123,220
-visibility dense
+visibility hide
 type bigBed
 
 track A485_P53
@@ -587,7 +609,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track A485_KLF
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_KLF_mm10.bigWig
@@ -597,7 +619,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track A485_RUNX
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_RUNX_mm10.bigWig
@@ -607,7 +629,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track A485_AP-1
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_AP1_mm10.bigWig
@@ -617,7 +639,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track A485_MAZ
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_MAZ_mm10.bigWig
@@ -627,7 +649,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track A485_TEAD
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_TEAD_mm10.bigWig
@@ -637,7 +659,7 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track A485_SP
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/A485_SP_mm10.bigWig
@@ -647,14 +669,14 @@ type bigWig
 color 74,62,242
 viewLimits 0:50
 negateValues off
-visibility dense
+visibility hide
 
 track A485_increased_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-A485_increased-dynamic-peaks.bb
 shortLabel A485 increased dynamic peaks
 longLabel Increased dynamic ATAC peaks from A485 treated and untreated As4.1 cells
 color 255,194,10
-visibility dense
+visibility hide
 type bigBed
 
 track A485_decreased_atac
@@ -662,7 +684,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel A485 decreased dynamic peaks
 longLabel Decreased dynamic ATAC peaks from A485 treated and untreated As4.1 cells
 color 255,194,10
-visibility dense
+visibility hide
 type bigBed
 
 track A485_all_dynamic_peaks
@@ -670,7 +692,7 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel A485 all dynamic peaks
 longLabel All dynamic ATAC peaks from A485 treated and untreated As4.1 cells
 color 255,194,10
-visibility dense
+visibility hide
 type bigBed
 
 track A485_non-dynamic_peaks
@@ -678,5 +700,5 @@ bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/mai
 shortLabel A485 non-dynamic peaks
 longLabel Non-dynamic ATAC peaks from A485 treated and untreated As4.1 cells
 color 12,123,220
-visibility dense
+visibility hide
 type bigBed
