@@ -228,15 +228,94 @@ autoScale on
   negateValues off
   visibility full
 
-track H3K27ac_combined_signal
-bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27Ac_As4.1.bigWig
-shortLabel CUT&Tag and ChIP-seq H3K27ac combined signal
-longLabel As4.1 cells with H3K27ac CUT&Tag and DMSO treated ChIP signal
-type bigWig
-color 190,190,190
-viewLimits 0:50
-negateValues off
+track Lysine_Modifications
+shortLabel Lysine Modifications
+longLabel ChIP-seq and/or CUTnTag Lysine Modifications Signal Tracks
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 visibility full
+type bigWig
+maxHeightPixels 100:50:16
+windowingFunction maximum
+autoScale on
+
+  track H2B5Kac_signal
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H2B5Kac.bigWig
+  shortLabel CUT&Tag H2B5Kac signal
+  longLabel As4.1 cells with H2B5Kac CUT&Tag signal
+  type bigWig
+  parent Lysine_Modifications
+  color 190,190,190
+  viewLimits 0:50
+  negateValues off
+  visibility hide
+
+  track H3K27ac_combined_signal
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27Ac_As4.1.bigWig
+  shortLabel CUT&Tag and ChIP-seq H3K27ac combined signal
+  longLabel As4.1 cells with H3K27ac CUT&Tag and DMSO treated ChIP signal
+  parent Lysine_Modifications
+  type bigWig
+  color 190,190,190
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+  track H3K27ac_signal
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27ac_CutNTag.bigWig
+  shortLabel CUT&Tag H3K27ac signal
+  longLabel As4.1 cells with H3K27ac CUT&Tag signal
+  parent Lysine_Modifications
+  type bigWig
+  color 190,190,190
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+  track H3K4me1_signal
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me1.bigWig
+  shortLabel CUT&Tag H3K4me1 signal
+  longLabel As4.1 cells with H3K4me1 CUT&Tag signal
+  type bigWig
+  parent Lysine_Modifications
+  color 190,190,190
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+  track H3K4me3_signal
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me3.bigWig
+  shortLabel CUT&Tag H3K4me3 signal
+  longLabel As4.1 cells with H3K4me3 CUT&Tag signal
+  type bigWig
+  parent Lysine_Modifications
+  color 190,190,190
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
+  track H4K16ac_signal
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H4K16ac.bigWig
+  shortLabel CUT&Tag H4K16ac signal
+  longLabel As4.1 cells with H4K16ac CUT&Tag signal
+  type bigWig
+  parent Lysine_Modifications
+  color 190,190,190
+  viewLimits 0:50
+  negateValues off
+  visibility full
+  
+  track H4K5ac_signal
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H4K5ac.bigWig
+  shortLabel CUT&Tag H4K5ac signal
+  longLabel As4.1 cells with H4K5ac CUT&Tag signal
+  type bigWig
+  parent Lysine_Modifications
+  color 190,190,190
+  viewLimits 0:50
+  negateValues off
+  visibility full
 
 track P300_consensus_peaks
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_P300_consensus_peaks.bb
@@ -332,66 +411,6 @@ autoScale on
   viewLimits 0:50
   negateValues off
   visibility full
-
-track H3K27ac_signal
-bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27ac_CutNTag.bigWig
-shortLabel CUT&Tag H3K27ac signal
-longLabel As4.1 cells with H3K27ac CUT&Tag signal
-type bigWig
-color 190,190,190
-viewLimits 0:50
-negateValues off
-visibility full
-
-track H2B5Kac_signal
-bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H2B5Kac.bigWig
-shortLabel CUT&Tag H2B5Kac signal
-longLabel As4.1 cells with H2B5Kac CUT&Tag signal
-type bigWig
-color 190,190,190
-viewLimits 0:50
-negateValues off
-visibility full
-
-track H4K5ac_signal
-bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H4K5ac.bigWig
-shortLabel CUT&Tag H4K5ac signal
-longLabel As4.1 cells with H4K5ac CUT&Tag signal
-type bigWig
-color 190,190,190
-viewLimits 0:50
-negateValues off
-visibility full
-
-track H3K4me3_signal
-bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me3.bigWig
-shortLabel CUT&Tag H3K4me3 signal
-longLabel As4.1 cells with H3K4me3 CUT&Tag signal
-type bigWig
-color 190,190,190
-viewLimits 0:50
-negateValues off
-visibility full
-
-track H3K4me1_signal
-bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me1.bigWig
-shortLabel CUT&Tag H3K4me1 signal
-longLabel As4.1 cells with H3K4me1 CUT&Tag signal
-type bigWig
-color 190,190,190
-viewLimits 0:50
-negateValues off
-visibility full
-
-track H4K16ac_signal
-bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H4K16ac.bigWig
-shortLabel CUT&Tag H4K16ac signal
-longLabel As4.1 cells with H4K16ac CUT&Tag signal
-type bigWig
-color 190,190,190
-viewLimits 0:50
-negateValues off
-visibility full
 
 track H3K27Ac_decATAC
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27Ac_H89_decATAC_2023-05-22.bb
