@@ -73,7 +73,7 @@ type bigBed
 
 track H89_consensus_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_H3K27Ac_consensus_peaks.bb
-shortLabel consensus peaks
+shortLabel H89 consensus peaks
 longLabel Consensus ATAC peaks from treated and untreated As4.1 cells
 color 190,190,190
 visibility hide
@@ -81,32 +81,32 @@ type bigBed
 
 track H89_dynamic_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_all_dynamic_peaks.bb
-shortLabel dynamic peaks
-longLabel Dynamic ATAC peaks from treated and untreated As4.1 cells
+shortLabel H89 dynamic peaks
+longLabel Dynamic ATAC peaks from H89 treated and untreated As4.1 cells
 color 255,194,10
 visibility hide
 type bigBed
 
 track H89_dynamic_decreased_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_decreased_dynamic_peaks.bb
-shortLabel decreased dynamic peaks
-longLabel Decreased dynamic ATAC peaks from treated and untreated As4.1 cells
+shortLabel H89 decreased dynamic peaks
+longLabel Decreased dynamic ATAC peaks from H89 treated and untreated As4.1 cells
 color 255,194,10
 visibility hide
 type bigBed
 
 track H89_dynamic_increased_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_increased_dynamic_peaks.bb
-shortLabel increased dynamic peaks
-longLabel Increased dynamic ATAC peaks from treated and untreated As4.1 cells
+shortLabel H89 increased dynamic peaks
+longLabel Increased dynamic ATAC peaks from H89 treated and untreated As4.1 cells
 color 255,194,10
 visibility hide
 type bigBed
 
 track H89_nondynamic_atac
 bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/As4.1_DMSO-v-H89_nondynamic_peaks.bb
-shortLabel nondynamic peaks
-longLabel Nondynamic ATAC peaks from treated and untreated As4.1 cells
+shortLabel H89 nondynamic peaks
+longLabel Nondynamic ATAC peaks from H89 treated and untreated As4.1 cells
 color 12,123,220
 visibility hide
 type bigBed
