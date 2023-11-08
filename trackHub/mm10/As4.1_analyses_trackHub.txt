@@ -284,6 +284,17 @@ autoScale on
   negateValues off
   visibility full
 
+  track H3K4me1_nonnorm_signal
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me1.bigWig
+  shortLabel CUT&Tag H3K4me1 non-normalized signal
+  longLabel As4.1 cells with H3K4me1 CUT&Tag signal (non-normalized)
+  type bigWig
+  parent Lysine_Modifications
+  color 190,190,190
+  viewLimits 0:50
+  negateValues off
+  visibility full
+
   track H3K4me3_signal
   bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me3_norm.bw
   shortLabel CUT&Tag H3K4me3 signal
