@@ -241,7 +241,7 @@ windowingFunction maximum
 autoScale on
 
   track H2B5Kac_signal
-  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H2B5Kac_norm.bw
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H2B5Kac_RPGC.bw
   shortLabel CUT&Tag H2B5Kac signal
   longLabel As4.1 cells with H2B5Kac CUT&Tag signal
   type bigWig
@@ -263,7 +263,7 @@ autoScale on
   visibility full
 
   track H3K27ac_signal
-  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27ac_CutNTag.bigWig
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K27ac_RPGC.bw
   shortLabel CUT&Tag H3K27ac signal
   longLabel As4.1 cells with H3K27ac CUT&Tag signal
   parent Lysine_Modifications
@@ -271,10 +271,10 @@ autoScale on
   color 190,190,190
   viewLimits 0:50
   negateValues off
-  visibility hide
+  visibility full
 
   track H3K4me1_signal
-  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me1_norm.bw
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me1_RPGC.bw
   shortLabel CUT&Tag H3K4me1 signal
   longLabel As4.1 cells with H3K4me1 CUT&Tag signal
   type bigWig
@@ -296,7 +296,7 @@ autoScale on
   visibility full
 
   track H3K4me3_signal
-  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me3_norm.bw
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H3K4me3_RPGC.bw
   shortLabel CUT&Tag H3K4me3 signal
   longLabel As4.1 cells with H3K4me3 CUT&Tag signal
   type bigWig
@@ -307,7 +307,7 @@ autoScale on
   visibility full
 
   track H4K16ac_signal
-  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H4K16ac_norm.bw
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H4K16ac_RPGC.bw
   shortLabel CUT&Tag H4K16ac signal
   longLabel As4.1 cells with H4K16ac CUT&Tag signal
   type bigWig
@@ -318,7 +318,7 @@ autoScale on
   visibility full
   
   track H4K5ac_signal
-  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H4K5ac_norm.bw
+  bigDataUrl https://media.githubusercontent.com/media/jpsmith5/genome_browser/main/trackHub/mm10/H4K5ac_RPGC.bw
   shortLabel CUT&Tag H4K5ac signal
   longLabel As4.1 cells with H4K5ac CUT&Tag signal
   type bigWig
